@@ -1,0 +1,32 @@
+
+td {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  align-content: center;
+}
+thead tr td {
+  border-bottom: solid 1px black;
+}
+tr td:first-child {
+  border-right: solid 1px black;
+}
+.cell {
+    width: 100%;
+    height: 100%;
+}
+.empty {
+    background-color: gray;
+}
+.tile {
+  background-color: green;
+}
+.block{
+  background-color: black;
+}
+.start{
+  background-color: blue;
+}
+.end{
+  background-color: red;
+}
